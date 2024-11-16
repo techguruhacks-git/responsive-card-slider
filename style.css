@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(#eceffe, #ced6fb);
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: #eb2f77;
+    text-shadow: 15px 0px 20px rgba(21, 21, 21, 0.5);
+}
+.list .item .link{
+    width: 400px;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    user-select: none;
+    transition: 0.3s all ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    margin: 40px;
+}
+.list .item .link:hover{
+    transform: translateY(-20px);
+    border-color: #5372F0;
+}
+.list .link .card-image{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.list .link .badge{
+    color: #5372f0;
+    padding: 8px 16px;
+    font-size: 22px;
+    margin: 16px 0 18px;
+    border-radius: 50px;
+    background: #dde4ff;
+    font-weight: 500;
+    width: fit-content;
+    margin: 10px;
+}
+.list .link .badge.hard{
+    color: whitesmoke;
+    background: #eb2f42;
+}
+.list .link .badge.easy{
+    color:#f1f3f9;
+    background: #52ee76;
+}
+.list .link .badge.difficult{
+    color: whitesmoke;
+    background: orange;
+}
+.list .link .title{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.list .link .button {
+    height: 30px;
+    width: 30px;
+    margin: 30px 0 5px;
+    border: 2px solid #5372F0;
+    color: #5372f0;
+    background: none;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-left: 10px;
+    
+    
+}
+.list .link:hover .button{
+    color: #fff;
+    background: #5372F0;
+
+}
+
